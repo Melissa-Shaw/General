@@ -3407,7 +3407,7 @@ i = i+1; % i = 162
 
 db(i).date = '020222';
 db(i).animal = 'M220117_B_MS';
-db(i).syringe_contents = []; % J1
+db(i).syringe_contents = 'TCB2'; % J1
 db(i).age = [];
 db(i).weight = 19.0;
 db(i).sex = 'F';
@@ -3420,7 +3420,8 @@ db(i).cond = [1 5];
 db(i).breakmin = {};
 db(i).injection = {'baselinepre', 'ViStimpre_grating','ViStimpre','Drinking','baselinepost','ViStimpost_grating','ViStimpost','End'};
 db(i).DurationS = [12 12 24 15 12 12 23]*60;
-db(i).dose = [];
+db(i).dose = 6.8;
+db(i).HTR = [11,7,7];
 db(i).controldose = 0;
 db(i).surfacedepth = [];
 db(i).lfp = 50:50:300;
@@ -3435,7 +3436,7 @@ i = i+1; % i = 163
 
 db(i).date = '020222';
 db(i).animal = 'M220117_B_MS';
-db(i).syringe_contents = []; % J1
+db(i).syringe_contents = 'TCB2'; % J1
 db(i).age = [];
 db(i).weight = 19.0;
 db(i).sex = 'F';
@@ -3448,7 +3449,8 @@ db(i).cond = [1 5];
 db(i).breakmin = {};
 db(i).injection = {'baselinepre', 'ViStimpre_grating','ViStimpre','Drinking','baselinepost','ViStimpost_grating','ViStimpost','End'};
 db(i).DurationS = [12 12 24 15 12 12 23]*60;
-db(i).dose = [];
+db(i).dose = 6.8;
+db(i).HTR = [11,7,7];
 db(i).controldose = 0;
 db(i).surfacedepth = [];
 db(i).lfp = [24:48:360]; % middle channel from each box section
@@ -3464,7 +3466,7 @@ i = i+1; % i = 164
 
 db(i).date = '030222';
 db(i).animal = 'M220117_B_MS';
-db(i).syringe_contents = []; % J2
+db(i).syringe_contents = 'CONTROL'; % J2
 db(i).age = [];
 db(i).weight = 19.0;
 db(i).sex = 'F';
@@ -3477,8 +3479,9 @@ db(i).cond = [1 5];
 db(i).breakmin = {};
 db(i).injection = {'baselinepre', 'ViStimpre_grating','ViStimpre','Drinking','baselinepost','ViStimpost_grating','ViStimpost','End'};
 db(i).DurationS = [12 11 23 15 12 12 23]*60;
-db(i).dose = [];
-db(i).controldose = 0;
+db(i).dose = 0;
+db(i).HTR = [3,4,1];
+db(i).controldose = 7.4;
 db(i).surfacedepth = [];
 db(i).lfp = 50:50:300;
 db(i).pupil = {};
@@ -3492,7 +3495,7 @@ i = i+1; % i = 165
 
 db(i).date = '030222';
 db(i).animal = 'M220117_B_MS';
-db(i).syringe_contents = []; % J2
+db(i).syringe_contents = 'CONTROL'; % J2
 db(i).age = [];
 db(i).weight = 19.0;
 db(i).sex = 'F';
@@ -3505,8 +3508,9 @@ db(i).cond = [1 5];
 db(i).breakmin = {};
 db(i).injection = {'baselinepre', 'ViStimpre_grating','ViStimpre','Drinking','baselinepost','ViStimpost_grating','ViStimpost','End'};
 db(i).DurationS = [12 11 23 15 12 12 23]*60;
-db(i).dose = [];
-db(i).controldose = 0;
+db(i).dose = 0;
+db(i).HTR = [3,4,1];
+db(i).controldose = 7.4;
 db(i).surfacedepth = [];
 db(i).lfp = [24:48:360]; % middle channel from each box section
 db(i).channelorder = [1 2 5 6 3 4 7 8]; % order of channels reading left to right, bottom to top
@@ -3521,7 +3525,7 @@ i = i+1; % i = 166
 
 db(i).date = '150222';
 db(i).animal = 'M220119_A_MS';
-db(i).syringe_contents = []; % K1
+db(i).syringe_contents = 'CONTROL'; % K1
 db(i).age = [];
 db(i).weight = 20.0;
 db(i).sex = 'F';
@@ -3534,8 +3538,9 @@ db(i).cond = [1 5];
 db(i).breakmin = {};
 db(i).injection = {'baselinepre', 'ViStimpre_grating','ViStimpre','Drinking','baselinepost','ViStimpost_grating','ViStimpost','End'};
 db(i).DurationS = [12 11 23 15 12 11 23]*60;
-db(i).dose = [];
-db(i).controldose = 0;
+db(i).dose = 0;
+db(i).HTR = [2,1,2];
+db(i).controldose = 10;
 db(i).surfacedepth = [];
 db(i).lfp = 50:50:300;
 db(i).pupil = {};
@@ -3549,7 +3554,7 @@ i = i+1; % i = 167
 
 db(i).date = '150222';
 db(i).animal = 'M220119_A_MS';
-db(i).syringe_contents = []; % K1
+db(i).syringe_contents = 'CONTROL'; % K1
 db(i).age = [];
 db(i).weight = 20.0;
 db(i).sex = 'F';
@@ -3562,8 +3567,9 @@ db(i).cond = [1 5];
 db(i).breakmin = {};
 db(i).injection = {'baselinepre', 'ViStimpre_grating','ViStimpre','Drinking','baselinepost','ViStimpost_grating','ViStimpost','End'};
 db(i).DurationS = [12 11 23 15 12 11 23]*60;
-db(i).dose = [];
-db(i).controldose = 0;
+db(i).dose = 0;
+db(i).HTR = [2,1,2];
+db(i).controldose = 10;
 db(i).surfacedepth = [];
 db(i).lfp = [24:48:360]; % middle channel from each box section
 db(i).channelorder = [1 2 5 6 3 4 7 8]; % order of channels reading left to right, bottom to top
@@ -3578,7 +3584,7 @@ i = i+1; % i = 168
 
 db(i).date = '160222';
 db(i).animal = 'M220119_A_MS';
-db(i).syringe_contents = []; % K2
+db(i).syringe_contents = 'TCB2'; % K2
 db(i).age = [];
 db(i).weight = 20.0;
 db(i).sex = 'F';
@@ -3591,7 +3597,8 @@ db(i).cond = [1 5];
 db(i).breakmin = {};
 db(i).injection = {'baselinepre', 'ViStimpre_grating','ViStimpre','Drinking','baselinepost','ViStimpost_grating','ViStimpost','End'};
 db(i).DurationS = [12 11 23 15 12 11 23]*60;
-db(i).dose = [];
+db(i).dose = 10.5;
+db(i).HTR = [11,10,6];
 db(i).controldose = 0;
 db(i).surfacedepth = [];
 db(i).lfp = 50:50:300;
@@ -3606,7 +3613,7 @@ i = i+1; % i = 169
 
 db(i).date = '160222';
 db(i).animal = 'M220119_A_MS';
-db(i).syringe_contents = []; % K2
+db(i).syringe_contents = 'TCB2'; % K2
 db(i).age = [];
 db(i).weight = 20.0;
 db(i).sex = 'F';
@@ -3619,7 +3626,8 @@ db(i).cond = [1 5];
 db(i).breakmin = {};
 db(i).injection = {'baselinepre', 'ViStimpre_grating','ViStimpre','Drinking','baselinepost','ViStimpost_grating','ViStimpost','End'};
 db(i).DurationS = [12 11 23 15 12 11 23]*60;
-db(i).dose = [];
+db(i).dose = 10.5;
+db(i).HTR = [11,10,6];
 db(i).controldose = 0;
 db(i).surfacedepth = [];
 db(i).lfp = [24:48:360]; % middle channel from each box section
@@ -3635,7 +3643,7 @@ i = i+1; % i = 170
 
 db(i).date = '170222';
 db(i).animal = 'M220119_B_MS';
-db(i).syringe_contents = []; % L1
+db(i).syringe_contents = 'CONTROL'; % L1
 db(i).age = [];
 db(i).weight = 23.0;
 db(i).sex = 'F';
@@ -3664,7 +3672,7 @@ i = i+1; % i = 171
 
 db(i).date = '180222';
 db(i).animal = 'M220119_B_MS';
-db(i).syringe_contents = []; % L2
+db(i).syringe_contents = 'TCB2'; % L2
 db(i).age = [];
 db(i).weight = 23.0;
 db(i).sex = 'F';
@@ -3693,7 +3701,7 @@ i = i+1; % i = 172
 
 db(i).date = '230322';
 db(i).animal = 'M220310_A_MS';
-db(i).syringe_contents = []; % M1
+db(i).syringe_contents = 'CONTROL'; % M1
 db(i).age = [];
 db(i).weight = 22.0;
 db(i).sex = 'F';
@@ -3706,8 +3714,9 @@ db(i).cond = [1 5];
 db(i).breakmin = {};
 db(i).injection = {'baselinepre', 'ViStimpre_grating','ViStimpre','Drinking','baselinepost','ViStimpost_grating','ViStimpost','End'};
 db(i).DurationS = [15 11 21 15 15 11 21]*60;
-db(i).dose = [];
-db(i).controldose = 0;
+db(i).dose = 0;
+db(i).HTR = [1,2,2];
+db(i).controldose = 8.2;
 db(i).surfacedepth = [];
 db(i).lfp = 50:50:300;
 db(i).pupil = {};
@@ -3721,7 +3730,7 @@ i = i+1; % i = 173
 
 db(i).date = '230322';
 db(i).animal = 'M220310_A_MS';
-db(i).syringe_contents = []; % M1
+db(i).syringe_contents = 'CONTROL'; % M1
 db(i).age = [];
 db(i).weight = 22.0;
 db(i).sex = 'F';
@@ -3734,8 +3743,9 @@ db(i).cond = [1 5];
 db(i).breakmin = {};
 db(i).injection = {'baselinepre', 'ViStimpre_grating','ViStimpre','Drinking','baselinepost','ViStimpost_grating','ViStimpost','End'};
 db(i).DurationS = [15 11 21 15 15 11 21]*60;
-db(i).dose = [];
-db(i).controldose = 0;
+db(i).dose = 0;
+db(i).HTR = [1,2,2];
+db(i).controldose = 8.2;
 db(i).surfacedepth = [];
 db(i).lfp = [24:48:360]; % middle channel from each box section
 db(i).channelorder = [1 2 5 6 3 4 7 8]; % order of channels reading left to right, bottom to top
@@ -3751,7 +3761,7 @@ i = i+1; % i = 174
 
 db(i).date = '240322';
 db(i).animal = 'M220310_A_MS';
-db(i).syringe_contents = []; % M2
+db(i).syringe_contents = 'TCB2'; % M2
 db(i).age = [];
 db(i).weight = 22.0;
 db(i).sex = 'F';
@@ -3764,7 +3774,8 @@ db(i).cond = [1 5];
 db(i).breakmin = {};
 db(i).injection = {'baselinepre', 'ViStimpre_grating','ViStimpre','Drinking','baselinepost','ViStimpost_grating','ViStimpost','End'};
 db(i).DurationS = [15 10.5 20.5 15 15 10.5 20.5]*60;
-db(i).dose = [];
+db(i).dose = 10;
+db(i).HTR = [4,7,3];
 db(i).controldose = 0;
 db(i).surfacedepth = [];
 db(i).lfp = 50:50:300;
@@ -3779,7 +3790,7 @@ i = i+1; % i = 175
 
 db(i).date = '240322';
 db(i).animal = 'M220310_A_MS';
-db(i).syringe_contents = []; % M2
+db(i).syringe_contents = 'TCB2'; % M2
 db(i).age = [];
 db(i).weight = 22.0;
 db(i).sex = 'F';
@@ -3792,7 +3803,8 @@ db(i).cond = [1 5];
 db(i).breakmin = {};
 db(i).injection = {'baselinepre', 'ViStimpre_grating','ViStimpre','Drinking','baselinepost','ViStimpost_grating','ViStimpost','End'};
 db(i).DurationS = [15 10.5 20.5 15 15 10.5 20.5]*60;
-db(i).dose = [];
+db(i).dose = 10;
+db(i).HTR = [4,7,3];
 db(i).controldose = 0;
 db(i).surfacedepth = [];
 db(i).lfp = [24:48:360]; % middle channel from each box section
@@ -3808,7 +3820,7 @@ i = i+1; % i = 176
 
 db(i).date = '050422';
 db(i).animal = 'M220310_B_MS';
-db(i).syringe_contents = []; % N1
+db(i).syringe_contents = 'TCB2'; % N1
 db(i).age = [];
 db(i).weight = 23.0;
 db(i).sex = 'F';
@@ -3836,7 +3848,7 @@ i = i+1; % i = 177
 
 db(i).date = '060422';
 db(i).animal = 'M220310_B_MS';
-db(i).syringe_contents = []; % N2
+db(i).syringe_contents = 'CONTROL'; % N2
 db(i).age = [];
 db(i).weight = 23.0;
 db(i).sex = 'F';
@@ -3864,7 +3876,7 @@ i = i+1; % i = 178
 
 db(i).date = '060422';
 db(i).animal = 'M220311_A_MS';
-db(i).syringe_contents = []; % O1
+db(i).syringe_contents = 'CONTROL'; % O1
 db(i).age = [];
 db(i).weight = 23.0;
 db(i).sex = 'F';
@@ -3877,8 +3889,9 @@ db(i).cond = [1 5];
 db(i).breakmin = {};
 db(i).injection = {'baselinepre', 'ViStimpre_grating','ViStimpre','Drinking','baselinepost','ViStimpost_grating','ViStimpost','End'};
 db(i).DurationS = [15 11 20.5 15 15 10.5 20.5]*60;
-db(i).dose = [];
-db(i).controldose = 0;
+db(i).dose = 0;
+db(i).HTR = [0,2,1];
+db(i).controldose = 10;
 db(i).surfacedepth = [];
 db(i).lfp = [24:48:360]; % middle channel from each box section
 db(i).channelorder = [1 2 5 6 3 4 7 8]; % order of channels reading left to right, bottom to top
@@ -3897,7 +3910,7 @@ i = i+1; % i = 179
 
 db(i).date = '070422';
 db(i).animal = 'M220311_A_MS';
-db(i).syringe_contents = []; % O2
+db(i).syringe_contents = 'TCB2'; % O2
 db(i).age = [];
 db(i).weight = 23.0;
 db(i).sex = 'F';
@@ -3910,7 +3923,8 @@ db(i).cond = [1 5];
 db(i).breakmin = {};
 db(i).injection = {'baselinepre', 'ViStimpre_grating','ViStimpre','Drinking','baselinepost','ViStimpost_grating','ViStimpost','End'};
 db(i).DurationS = [15 10.5 20.5 10 15 11 20.5]*60;
-db(i).dose = [];
+db(i).dose = 10;
+db(i).HTR = [5,7,3];
 db(i).controldose = 0;
 db(i).surfacedepth = [];
 db(i).lfp = [24:48:360]; % middle channel from each box section
@@ -3929,7 +3943,7 @@ i = i+1; % i = 180
 
 db(i).date = '200422';
 db(i).animal = 'M220311_B_MS';
-db(i).syringe_contents = []; % P1
+db(i).syringe_contents = 'TCB2'; % P1
 db(i).age = [];
 db(i).weight = 23.0;
 db(i).sex = 'F';
@@ -3942,7 +3956,8 @@ db(i).cond = [1 5];
 db(i).breakmin = {};
 db(i).injection = {'baselinepre', 'ViStimpre_grating','ViStimpre','Drinking','baselinepost','ViStimpost_grating','ViStimpost','End'};
 db(i).DurationS = [15 10.5 20.5 15 15 10.5 20.5]*60;
-db(i).dose = [];
+db(i).dose = 10;
+db(i).HTR = [6,5,7];
 db(i).controldose = 0;
 db(i).surfacedepth = [];
 db(i).lfp = [24:48:360]; % middle channel from each box section
@@ -3962,7 +3977,7 @@ i = i+1; % i = 181
 
 db(i).date = '210422';
 db(i).animal = 'M220311_B_MS';
-db(i).syringe_contents = []; % P2
+db(i).syringe_contents = 'CONTROL'; % P2
 db(i).age = [];
 db(i).weight = 23.0;
 db(i).sex = 'F';
@@ -3975,8 +3990,9 @@ db(i).cond = [1 5];
 db(i).breakmin = {};
 db(i).injection = {'baselinepre', 'ViStimpre_grating','ViStimpre','Drinking','baselinepost','ViStimpost_grating','ViStimpost','End'};
 db(i).DurationS = [15 10.5 20.5 15 15 10.5 20.5]*60;
-db(i).dose = [];
-db(i).controldose = 0;
+db(i).dose = 0;
+db(i).HTR = [1,3,0];
+db(i).controldose = 10;
 db(i).surfacedepth = [];
 db(i).lfp = [24:48:360]; % middle channel from each box section
 db(i).channelorder = [1 2 5 6 3 4 7 8]; % order of channels reading left to right, bottom to top
@@ -3995,7 +4011,7 @@ i = i+1; % i = 182
 
 db(i).date = '160522';
 db(i).animal = 'M220426_A_MS';
-db(i).syringe_contents = []; % Q1
+db(i).syringe_contents = 'TCB2'; % Q1
 db(i).age = [];
 db(i).weight = 24.0;
 db(i).sex = 'M';
@@ -4008,7 +4024,8 @@ db(i).cond = [1 5];
 db(i).breakmin = {};
 db(i).injection = {'baselinepre', 'ViStimpre_grating','ViStimpre','Drinking','baselinepost','ViStimpost_grating','ViStimpost','End'};
 db(i).DurationS = [15 10.5 20.5 15 15 10.5 20.5]*60;
-db(i).dose = [];
+db(i).dose = 10.8;
+db(i).HTR = [8,7,8];
 db(i).controldose = 0;
 db(i).surfacedepth = [];
 db(i).lfp = [24:48:360]; % middle channel from each box section
@@ -4028,7 +4045,7 @@ i = i+1; % i = 183
 
 db(i).date = '170522';
 db(i).animal = 'M220426_A_MS';
-db(i).syringe_contents = []; % Q2
+db(i).syringe_contents = 'CONTROL'; % Q2
 db(i).age = [];
 db(i).weight = 24.0;
 db(i).sex = 'M';
@@ -4041,8 +4058,9 @@ db(i).cond = [1 5];
 db(i).breakmin = {};
 db(i).injection = {'baselinepre', 'ViStimpre_grating','ViStimpre','Drinking','baselinepost','ViStimpost_grating','ViStimpost','End'};
 db(i).DurationS = [15 10.5 20.5 15 15 10.5 20.5]*60;
-db(i).dose = [];
-db(i).controldose = 0;
+db(i).dose = 0;
+db(i).HTR = [3,3,4];
+db(i).controldose = 10.8;
 db(i).surfacedepth = [];
 db(i).lfp = [24:48:360]; % middle channel from each box section
 db(i).channelorder = [1 2 5 6 3 4 7 8]; % order of channels reading left to right, bottom to top
@@ -4061,7 +4079,7 @@ i = i+1; % i = 184
 
 db(i).date = '230522';
 db(i).animal = 'M220426_B_MS';
-db(i).syringe_contents = []; % R1
+db(i).syringe_contents = 'CONTROL'; % R1
 db(i).age = [];
 db(i).weight = 24.0;
 db(i).sex = 'M';
@@ -4074,8 +4092,9 @@ db(i).cond = [1 5];
 db(i).breakmin = {};
 db(i).injection = {'baselinepre', 'ViStimpre_grating','ViStimpre','Drinking','baselinepost','ViStimpost_grating','ViStimpost','End'};
 db(i).DurationS = [15 10.5 20.5 15 15 10.5 20.5]*60;
-db(i).dose = [];
-db(i).controldose = 0;
+db(i).dose = 0;
+db(i).HTR = [2,3,3];
+db(i).controldose = 10.8;
 db(i).surfacedepth = [];
 db(i).lfp = [24:48:360]; % middle channel from each box section
 db(i).channelorder = [1 2 5 6 3 4 7 8]; % order of channels reading left to right, bottom to top
@@ -4094,7 +4113,7 @@ i = i+1; % i = 185
 
 db(i).date = '240522';
 db(i).animal = 'M220426_B_MS';
-db(i).syringe_contents = []; % R2
+db(i).syringe_contents = 'TCB2'; % R2
 db(i).age = [];
 db(i).weight = 24.0;
 db(i).sex = 'M';
@@ -4107,7 +4126,8 @@ db(i).cond = [1 5];
 db(i).breakmin = {};
 db(i).injection = {'baselinepre', 'ViStimpre_grating','ViStimpre','Drinking','baselinepost','ViStimpost_grating','ViStimpost','End'};
 db(i).DurationS = [15 10.5 20.5 15 15 10.5 20.5]*60;
-db(i).dose = [];
+db(i).dose = 11.7;
+db(i).HTR = [3,11,8];
 db(i).controldose = 0;
 db(i).surfacedepth = [];
 db(i).lfp = [24:48:360]; % middle channel from each box section
@@ -4128,7 +4148,7 @@ i = i+1; % i = 186
 
 db(i).date = '200622';
 db(i).animal = 'M220525_B_MS';
-db(i).syringe_contents = []; % S1
+db(i).syringe_contents = 'TCB2'; % S1
 db(i).age = [];
 db(i).weight = 27.0;
 db(i).sex = 'M';
@@ -4141,7 +4161,8 @@ db(i).cond = [1 3];
 db(i).breakmin = {};
 db(i).injection = {'baselinepre','Drinking','baselinepost','End'};
 db(i).DurationS = [15 15 30]*60;
-db(i).dose = [];
+db(i).dose = 8.5;
+db(i).HTR = [3,6,5];
 db(i).controldose = 0;
 db(i).surfacedepth = [];
 db(i).lfp = 50:50:300;
@@ -4157,7 +4178,7 @@ i = i+1; % i = 187
 
 db(i).date = '210622';
 db(i).animal = 'M220525_B_MS';
-db(i).syringe_contents = []; % S2
+db(i).syringe_contents = 'CONTROL'; % S2
 db(i).age = [];
 db(i).weight = 27.0;
 db(i).sex = 'M';
@@ -4170,8 +4191,9 @@ db(i).cond = [1 3];
 db(i).breakmin = {};
 db(i).injection = {'baselinepre','Drinking','baselinepost','End'};
 db(i).DurationS = [15 15 30]*60;
-db(i).dose = [];
-db(i).controldose = 0;
+db(i).dose = 0;
+db(i).HTR = [3,3,3];
+db(i).controldose = 7.4;
 db(i).surfacedepth = [];
 db(i).lfp = 50:50:300;
 db(i).pupil = {};
@@ -4186,7 +4208,7 @@ i = i+1; % i = 188
 
 db(i).date = '270622';
 db(i).animal = 'M220613_A_MS';
-db(i).syringe_contents = []; % T1
+db(i).syringe_contents = 'TCB2'; % T1
 db(i).age = [];
 db(i).weight = 19.0;
 db(i).sex = 'F';
@@ -4199,7 +4221,7 @@ db(i).cond = [1 5];
 db(i).breakmin = {};
 db(i).injection = {'baselinepre', 'ViStimpre_grating','ViStimpre','Drinking','baselinepost','ViStimpost_grating','ViStimpost','End'};
 db(i).DurationS = [15 10.5 20.5 15 15 11 21]*60;
-db(i).dose = [];
+db(i).dose = 10;
 db(i).controldose = 0;
 db(i).surfacedepth = [];
 db(i).lfp = 50:50:300;
@@ -4214,7 +4236,7 @@ i = i+1; % i = 189
 
 db(i).date = '270622';
 db(i).animal = 'M220613_A_MS';
-db(i).syringe_contents = []; % T1
+db(i).syringe_contents = 'TCB2'; % T1
 db(i).age = [];
 db(i).weight = 19.0;
 db(i).sex = 'F';
@@ -4227,7 +4249,7 @@ db(i).cond = [1 5];
 db(i).breakmin = {};
 db(i).injection = {'baselinepre', 'ViStimpre_grating','ViStimpre','Drinking','baselinepost','ViStimpost_grating','ViStimpost','End'};
 db(i).DurationS = [15 10.5 20.5 15 15 11 21]*60;
-db(i).dose = [];
+db(i).dose = 10;
 db(i).controldose = 0;
 db(i).surfacedepth = [];
 db(i).lfp = [24:48:360]; % middle channel from each box section
@@ -4248,7 +4270,7 @@ i = i+1; % i = 190
 
 db(i).date = '280622';
 db(i).animal = 'M220613_A_MS';
-db(i).syringe_contents = []; % T2
+db(i).syringe_contents = 'CONTROL'; % T2
 db(i).age = [];
 db(i).weight = 19.0;
 db(i).sex = 'F';
@@ -4261,8 +4283,8 @@ db(i).cond = [1 5];
 db(i).breakmin = {};
 db(i).injection = {'baselinepre', 'ViStimpre_grating','ViStimpre','Drinking','baselinepost','ViStimpost_grating','ViStimpost','End'};
 db(i).DurationS = [15 10.5 20.5 15 15.5 10.5 20.5]*60;
-db(i).dose = [];
-db(i).controldose = 0;
+db(i).dose = 0;
+db(i).controldose = 10.5;
 db(i).surfacedepth = [];
 db(i).lfp = 50:50:300;
 db(i).pupil = {};
@@ -4275,7 +4297,7 @@ i = i+1; % i = 191
 
 db(i).date = '280622';
 db(i).animal = 'M220613_A_MS';
-db(i).syringe_contents = []; % T2
+db(i).syringe_contents = 'CONTROL'; % T2
 db(i).age = [];
 db(i).weight = 19.0;
 db(i).sex = 'F';
@@ -4288,8 +4310,8 @@ db(i).cond = [1 5];
 db(i).breakmin = {};
 db(i).injection = {'baselinepre', 'ViStimpre_grating','ViStimpre','Drinking','baselinepost','ViStimpost_grating','ViStimpost','End'};
 db(i).DurationS = [15 10.5 20.5 15 15.5 10.5 20.5]*60;
-db(i).dose = [];
-db(i).controldose = 0;
+db(i).dose = 0;
+db(i).controldose = 10.5;
 db(i).surfacedepth = [];
 db(i).lfp = [24:48:360]; % middle channel from each box section
 db(i).channelorder = [1 2 5 6 3 4 7 8]; % order of channels reading left to right, bottom to top
@@ -4307,7 +4329,7 @@ i = i+1; % i = 192
 
 db(i).date = '290622';
 db(i).animal = 'M220613_B_MS';
-db(i).syringe_contents = []; % U1
+db(i).syringe_contents = 'TCB2'; % U1
 db(i).age = [];
 db(i).weight = 19.0;
 db(i).sex = 'F';
@@ -4320,7 +4342,8 @@ db(i).cond = [1 5];
 db(i).breakmin = {};
 db(i).injection = {'baselinepre', 'ViStimpre_grating','ViStimpre','Drinking','baselinepost','ViStimpost_grating','ViStimpost','End'};
 db(i).DurationS = [15 10.5 21 14.5 15 12 21]*60;
-db(i).dose = [];
+db(i).dose = 7.9;
+db(i).HTR = [6,14,7];
 db(i).controldose = 0;
 db(i).surfacedepth = [];
 db(i).lfp = 50:50:300; 
@@ -4329,7 +4352,7 @@ db(i).pupilvideo = [neuropixDir db(i).animal '\' db(i).date '\video_52752.mj2'];
 db(i).NIDQ = {[neuropixDir db(i).animal '\' db(i).date '\'  db(i).animal '_g1\'  db(i).animal '_g1_t0.nidq.bin']};
 db(i).location = 'V1';
 db(i).probe = 'NP1';
-db(i).rec_map_files = {[neuropixDir db(i).animal '\' db(i).date '\' db(i).animal '_g0\' db(i).animal '_g0_imec0\' db(i).animal '_g0_t0.imec0.ap.bin'],...
+db(i).rec_map_files = {[neuropixDir db(i).animal '\' db(i).date '\' db(i).animal '_g0\' db(i).animal '_g0_imec0\' db(i).animal '_g0_t0.imec0.lf.bin'],...
                         [neuropixDir db(i).animal '\' db(i).date '\'  db(i).animal '_g0\'  db(i).animal '_g0_t0.nidq.bin']};
 db(i).rec_field = [0 -406 216]; % x_coord, y_coord, lfpchannel
 
@@ -4338,7 +4361,7 @@ i = i+1; % i = 193
 
 db(i).date = '300622';
 db(i).animal = 'M220613_B_MS';
-db(i).syringe_contents = []; % U2
+db(i).syringe_contents = 'CONTROL'; % U2
 db(i).age = [];
 db(i).weight = 19.0;
 db(i).sex = 'F';
@@ -4351,8 +4374,9 @@ db(i).cond = [1 5];
 db(i).breakmin = {};
 db(i).injection = {'baselinepre', 'ViStimpre_grating','ViStimpre','Drinking','baselinepost','ViStimpost_grating','ViStimpost','End'};
 db(i).DurationS = [15 10.5 20.5 15 15 11 20.5]*60;
-db(i).dose = [];
-db(i).controldose = 0;
+db(i).dose = 0;
+db(i).HTR = [5,1,4];
+db(i).controldose = 8.4;
 db(i).surfacedepth = [];
 db(i).lfp = 50:50:300; 
 db(i).pupil = {};
@@ -4360,7 +4384,7 @@ db(i).pupilvideo = [neuropixDir db(i).animal '\' db(i).date '\video_37465.mj2'];
 db(i).NIDQ = {[neuropixDir db(i).animal '\' db(i).date '\'  db(i).animal '_g1\'  db(i).animal '_g1_t0.nidq.bin']};
 db(i).location = 'V1';
 db(i).probe = 'NP1';
-db(i).rec_map_files = {[neuropixDir db(i).animal '\' db(i).date '\' db(i).animal '_g0\' db(i).animal '_g0_imec0\' db(i).animal '_g0_t0.imec0.ap.bin'],...
+db(i).rec_map_files = {[neuropixDir db(i).animal '\' db(i).date '\' db(i).animal '_g0\' db(i).animal '_g0_imec0\' db(i).animal '_g0_t0.imec0.lf.bin'],...
                         [neuropixDir db(i).animal '\' db(i).date '\'  db(i).animal '_g0\'  db(i).animal '_g0_t0.nidq.bin']};
 db(i).rec_field = [0 -406 216]; % x_coord, y_coord, lfpchannel
 
@@ -4370,7 +4394,7 @@ i = i+1; % i = 194
 
 db(i).date = '060722';
 db(i).animal = 'M220613_C_MS';
-db(i).syringe_contents = []; % V1
+db(i).syringe_contents = 'CONTROL'; % V1
 db(i).age = [];
 db(i).weight = 20.0;
 db(i).sex = 'F';
@@ -4383,8 +4407,9 @@ db(i).cond = [1 5];
 db(i).breakmin = {};
 db(i).injection = {'baselinepre', 'ViStimpre_grating','ViStimpre','Drinking','baselinepost','ViStimpost_grating','ViStimpost','End'};
 db(i).DurationS = [15 10.5 20.5 15 15.5 10.5 20.5]*60;
-db(i).dose = [];
-db(i).controldose = 0;
+db(i).dose = 0;
+db(i).HTR = [3,4,3];
+db(i).controldose = 10.5;
 db(i).surfacedepth = [];
 db(i).lfp = 50:50:300;
 db(i).pupil = {};
@@ -4399,7 +4424,7 @@ i = i+1; % i = 195
 
 db(i).date = '060722';
 db(i).animal = 'M220613_C_MS';
-db(i).syringe_contents = []; % V1
+db(i).syringe_contents = 'CONTROL'; % V1
 db(i).age = [];
 db(i).weight = 20.0;
 db(i).sex = 'F';
@@ -4412,8 +4437,9 @@ db(i).cond = [1 5];
 db(i).breakmin = {};
 db(i).injection = {'baselinepre', 'ViStimpre_grating','ViStimpre','Drinking','baselinepost','ViStimpost_grating','ViStimpost','End'};
 db(i).DurationS = [15 10.5 20.5 15 15.5 10.5 20.5]*60;
-db(i).dose = [];
-db(i).controldose = 0;
+db(i).dose = 0;
+db(i).HTR = [3,4,3];
+db(i).controldose = 10.5;
 db(i).surfacedepth = [];
 db(i).lfp = [24:48:360]; % middle channel from each box section
 db(i).channelorder = [1 2 5 6 3 4 7 8]; % order of channels reading left to right, bottom to top
@@ -4434,7 +4460,7 @@ i = i+1; % i = 196
 
 db(i).date = '070722';
 db(i).animal = 'M220613_C_MS';
-db(i).syringe_contents = []; % V2
+db(i).syringe_contents = 'TCB2'; % V2
 db(i).age = [];
 db(i).weight = 20.0;
 db(i).sex = 'F';
@@ -4447,7 +4473,8 @@ db(i).cond = [1 5];
 db(i).breakmin = {};
 db(i).injection = {'baselinepre', 'ViStimpre_grating','ViStimpre','Drinking','baselinepost','ViStimpost_grating','ViStimpost','End'};
 db(i).DurationS = [15 10.5 20.5 15 15 11 20.5]*60;
-db(i).dose = [];
+db(i).dose = 10.5;
+db(i).HTR = [7,6,6];
 db(i).controldose = 0;
 db(i).surfacedepth = [];
 db(i).lfp = 50:50:300;
@@ -4462,7 +4489,7 @@ i = i+1; % i = 197
 
 db(i).date = '070722';
 db(i).animal = 'M220613_C_MS';
-db(i).syringe_contents = []; % V2
+db(i).syringe_contents = 'TCB2'; % V2
 db(i).age = [];
 db(i).weight = 20.0;
 db(i).sex = 'F';
@@ -4475,7 +4502,8 @@ db(i).cond = [1 5];
 db(i).breakmin = {};
 db(i).injection = {'baselinepre', 'ViStimpre_grating','ViStimpre','Drinking','baselinepost','ViStimpost_grating','ViStimpost','End'};
 db(i).DurationS = [15 10.5 20.5 15 15 11 20.5]*60;
-db(i).dose = [];
+db(i).dose = 10.5;
+db(i).HTR = [7,6,6];
 db(i).controldose = 0;
 db(i).surfacedepth = [];
 db(i).lfp = [24:48:360]; % middle channel from each box section
@@ -4527,7 +4555,7 @@ i = i+1; % i = 199
 
 db(i).date = '130722';
 db(i).animal = 'M220613_D_MS';
-db(i).syringe_contents = []; % W1
+db(i).syringe_contents = 'CONTROL'; % W1
 db(i).age = [];
 db(i).weight = 20.0;
 db(i).sex = 'F';
@@ -4540,8 +4568,9 @@ db(i).cond = [1 5];
 db(i).breakmin = {};
 db(i).injection = {'baselinepre', 'ViStimpre_grating','ViStimpre','Drinking','baselinepost','ViStimpost_grating','ViStimpost','End'};
 db(i).DurationS = [15 10.5 20.5 15 15 11 20.5]*60;
-db(i).dose = [];
-db(i).controldose = 0;
+db(i).dose = 0;
+db(i).HTR = [2,3,2];
+db(i).controldose = 9.5;
 db(i).surfacedepth = [];
 db(i).lfp = [24:48:360]; % middle channel from each box section
 db(i).channelorder = [1 2 5 6 3 4 7 8]; % order of channels reading left to right, bottom to top
@@ -4560,7 +4589,7 @@ i = i+1; % i = 200
 
 db(i).date = '140722';
 db(i).animal = 'M220613_D_MS';
-db(i).syringe_contents = []; % W2
+db(i).syringe_contents = 'TCB2'; % W2
 db(i).age = [];
 db(i).weight = 20.0;
 db(i).sex = 'F';
@@ -4573,7 +4602,8 @@ db(i).cond = [1 5];
 db(i).breakmin = {};
 db(i).injection = {'baselinepre', 'ViStimpre_grating','ViStimpre','Drinking','baselinepost','ViStimpost_grating','ViStimpost','End'};
 db(i).DurationS = [15 10.5 20.5 15 15 10.5 20.5]*60;
-db(i).dose = [];
+db(i).dose = 9.5;
+db(i).HTR = [5,10,11];
 db(i).controldose = 0;
 db(i).surfacedepth = [];
 db(i).lfp = [24:48:360]; % middle channel from each box section
@@ -4626,7 +4656,7 @@ i = i+1; % i = 202
 
 db(i).date = '200722';
 db(i).animal = 'M220712_A_MS';
-db(i).syringe_contents = []; % X1
+db(i).syringe_contents = 'TCB2'; % X1
 db(i).age = [];
 db(i).weight = 29.0;
 db(i).sex = 'M';
@@ -4639,7 +4669,8 @@ db(i).cond = [1 5];
 db(i).breakmin = {};
 db(i).injection = {'baselinepre', 'ViStimpre_grating','ViStimpre','Drinking','baselinepost','ViStimpost_grating','ViStimpost','End'};
 db(i).DurationS = [15 10.5 20.5 15 15 10.5 20.5]*60;
-db(i).dose = [];
+db(i).dose = 8.6;
+db(i).HTR = [6,11,9];
 db(i).controldose = 0;
 db(i).surfacedepth = [];
 db(i).lfp = 50:50:300;
@@ -4655,7 +4686,7 @@ i = i+1; % i = 203
 
 db(i).date = '200722';
 db(i).animal = 'M220712_A_MS';
-db(i).syringe_contents = []; % X1
+db(i).syringe_contents = 'TCB2'; % X1
 db(i).age = [];
 db(i).weight = 29.0;
 db(i).sex = 'M';
@@ -4668,7 +4699,8 @@ db(i).cond = [1 5];
 db(i).breakmin = {};
 db(i).injection = {'baselinepre', 'ViStimpre_grating','ViStimpre','Drinking','baselinepost','ViStimpost_grating','ViStimpost','End'};
 db(i).DurationS = [15 10.5 20.5 15 15 10.5 20.5]*60;
-db(i).dose = [];
+db(i).dose = 8.6;
+db(i).HTR = [6,11,9];
 db(i).controldose = 0;
 db(i).surfacedepth = [];
 db(i).lfp = [24:48:360]; % middle channel from each box section
@@ -4689,7 +4721,7 @@ i = i+1; % i = 204
 
 db(i).date = '210722';
 db(i).animal = 'M220712_A_MS';
-db(i).syringe_contents = []; % X2
+db(i).syringe_contents = 'CONTROL'; % X2
 db(i).age = [];
 db(i).weight = 29.0;
 db(i).sex = 'M';
@@ -4702,8 +4734,9 @@ db(i).cond = [1 5];
 db(i).breakmin = {};
 db(i).injection = {'baselinepre', 'ViStimpre_grating','ViStimpre','Drinking','baselinepost','ViStimpost_grating','ViStimpost','End'};
 db(i).DurationS = [15 10.5 20.5 15 16 10.5 20.5]*60;
-db(i).dose = [];
-db(i).controldose = 0;
+db(i).dose = 0;
+db(i).HTR = [1,1,2];
+db(i).controldose = 9.3;
 db(i).surfacedepth = [];
 db(i).lfp = 50:50:300;
 db(i).pupil = {};
@@ -4718,7 +4751,7 @@ i = i+1; % i = 205
 
 db(i).date = '210722';
 db(i).animal = 'M220712_A_MS';
-db(i).syringe_contents = []; % X2
+db(i).syringe_contents = 'CONTROL'; % X2
 db(i).age = [];
 db(i).weight = 29.0;
 db(i).sex = 'M';
@@ -4731,8 +4764,9 @@ db(i).cond = [1 5];
 db(i).breakmin = {};
 db(i).injection = {'baselinepre', 'ViStimpre_grating','ViStimpre','Drinking','baselinepost','ViStimpost_grating','ViStimpost','End'};
 db(i).DurationS = [15 10.5 20.5 15 16 10.5 20.5]*60;
-db(i).dose = [];
-db(i).controldose = 0;
+db(i).dose = 0;
+db(i).HTR = [1,1,2];
+db(i).controldose = 9.3;
 db(i).surfacedepth = [];
 db(i).lfp = [24:48:360]; % middle channel from each box section
 db(i).channelorder = [1 2 5 6 3 4 7 8]; % order of channels reading left to right, bottom to top
@@ -4816,7 +4850,7 @@ i = i+1; % i = 210
 
 db(i).date = '220822';
 db(i).animal = 'M220810_A_MS';
-db(i).syringe_contents = []; % TCB-2
+db(i).syringe_contents = 'TCB2'; % TCB-2
 db(i).age = [];
 db(i).weight = 28.0;
 db(i).sex = 'M';
@@ -4829,7 +4863,8 @@ db(i).cond = [1 5];
 db(i).breakmin = {};
 db(i).injection = {'baselinepre', 'ViStimpre_grating','ViStimpre','Drinking','baselinepost','ViStimpost_grating','ViStimpost','End'};
 db(i).DurationS = [15 10.5 20.5 15 15 10.5 20.5]*60;
-db(i).dose = [];
+db(i).dose = 7.5;
+db(i).HTR = [5,8];
 db(i).controldose = 0;
 db(i).surfacedepth = [];
 db(i).lfp = [24:48:360]; % middle channel from each box section
@@ -4849,7 +4884,7 @@ i = i+1; % i = 211
 
 db(i).date = '230822';
 db(i).animal = 'M220810_A_MS';
-db(i).syringe_contents = []; % Control
+db(i).syringe_contents = 'CONTROL'; % Control
 db(i).age = [];
 db(i).weight = 28.0;
 db(i).sex = 'M';
@@ -4862,8 +4897,9 @@ db(i).cond = [1 5];
 db(i).breakmin = {};
 db(i).injection = {'baselinepre', 'ViStimpre_grating','ViStimpre','Drinking','baselinepost','ViStimpost_grating','ViStimpost','End'};
 db(i).DurationS = [15 10.5 20.5 15 15 10.5 20.5]*60;
-db(i).dose = [];
-db(i).controldose = 0;
+db(i).dose = 0;
+db(i).HTR = [1,0,1];
+db(i).controldose = 7.1;
 db(i).surfacedepth = [];
 db(i).lfp = [24:48:360]; % middle channel from each box section
 db(i).channelorder = [1 2 5 6 3 4 7 8]; % order of channels reading left to right, bottom to top
@@ -4883,7 +4919,7 @@ i = i+1; % i = 212
 
 db(i).date = '250822';
 db(i).animal = 'M220810_B_MS';
-db(i).syringe_contents = []; % Control
+db(i).syringe_contents = 'CONTROL'; % Control
 db(i).age = [];
 db(i).weight = 34.0;
 db(i).sex = 'M';
@@ -4896,8 +4932,9 @@ db(i).cond = [1 5];
 db(i).breakmin = {};
 db(i).injection = {'baselinepre', 'ViStimpre_grating','ViStimpre','Drinking','baselinepost','ViStimpost_grating','ViStimpost','End'};
 db(i).DurationS = [15 10.5 20.5 15 15 10.5 20.5]*60;
-db(i).dose = [];
-db(i).controldose = 0;
+db(i).dose = 0;
+db(i).HTR = [3,2,2];
+db(i).controldose = 8.8;
 db(i).surfacedepth = [];
 db(i).lfp = 50:50:300;
 db(i).pupil = {};
@@ -4912,7 +4949,7 @@ i = i+1; % i = 213
 
 db(i).date = '250822';
 db(i).animal = 'M220810_B_MS';
-db(i).syringe_contents = []; % Control
+db(i).syringe_contents = 'CONTROL'; % Control
 db(i).age = [];
 db(i).weight = 34.0;
 db(i).sex = 'M';
@@ -4925,8 +4962,9 @@ db(i).cond = [1 5];
 db(i).breakmin = {};
 db(i).injection = {'baselinepre', 'ViStimpre_grating','ViStimpre','Drinking','baselinepost','ViStimpost_grating','ViStimpost','End'};
 db(i).DurationS = [15 10.5 20.5 15 15 10.5 20.5]*60;
-db(i).dose = [];
-db(i).controldose = 0;
+db(i).dose = 0;
+db(i).HTR = [3,2,2];
+db(i).controldose = 8.8;
 db(i).surfacedepth = [];
 db(i).lfp = [24:48:360]; % middle channel from each box section
 db(i).channelorder = [1 2 5 6 3 4 7 8]; % order of channels reading left to right, bottom to top
@@ -4946,7 +4984,7 @@ i = i+1; % i = 214
 
 db(i).date = '260822';
 db(i).animal = 'M220810_B_MS';
-db(i).syringe_contents = []; % TCB-2
+db(i).syringe_contents = 'TCB2'; % TCB-2
 db(i).age = [];
 db(i).weight = 34.0;
 db(i).sex = 'M';
@@ -4959,7 +4997,8 @@ db(i).cond = [1 5];
 db(i).breakmin = {};
 db(i).injection = {'baselinepre', 'ViStimpre_grating','ViStimpre','Drinking','baselinepost','ViStimpost_grating','ViStimpost','End'};
 db(i).DurationS = [15 10.5 20.5 15 15 10.5 20.5]*60;
-db(i).dose = [];
+db(i).dose = 7.4;
+db(i).HTR = [4,8,7];
 db(i).controldose = 0;
 db(i).surfacedepth = [];
 db(i).lfp = 50:50:300;
@@ -4975,7 +5014,7 @@ i = i+1; % i = 215
 
 db(i).date = '260822';
 db(i).animal = 'M220810_B_MS';
-db(i).syringe_contents = []; % TCB-2
+db(i).syringe_contents = 'TCB2'; % TCB-2
 db(i).age = [];
 db(i).weight = 34.0;
 db(i).sex = 'M';
@@ -4988,7 +5027,8 @@ db(i).cond = [1 5];
 db(i).breakmin = {};
 db(i).injection = {'baselinepre', 'ViStimpre_grating','ViStimpre','Drinking','baselinepost','ViStimpost_grating','ViStimpost','End'};
 db(i).DurationS = [15 10.5 20.5 15 15 10.5 20.5]*60;
-db(i).dose = [];
+db(i).dose = 7.4;
+db(i).HTR = [4,8,7];
 db(i).controldose = 0;
 db(i).surfacedepth = [];
 db(i).lfp = [24:48:360]; % middle channel from each box section
@@ -5067,6 +5107,389 @@ db(i).rec_map_files = {[neuropixDir db(i).animal '\' db(i).date '\' db(i).animal
                         [neuropixDir db(i).animal '\' db(i).date '\'  db(i).animal '_g0\'  db(i).animal '_g0_t0.nidq.bin']};
 db(i).rec_field = [-256 -406 120]; % x_coord, y_coord, lfpchannel
 
+% M220927_B_BD Ket
+i = i + 1; % i = 218
+
+db(i).date = '171022';
+db(i).animal = 'M220927_B_BD';
+db(i).syringe_contents = 'KET'; 
+db(i).age = [];
+db(i).weight = 26.0;
+db(i).sex = 'M';
+db(i).ref = 'external';
+db(i).LFPgain = 125;
+db(i).dir = [neuropixDir  db(i).animal '\' db(i).date '\PFC\Spikes'];
+db(i).LFPdir = [neuropixDir db(i).animal '\' db(i).date '\PFC\LFP'];
+db(i).nChans = {384,1};
+db(i).cond = [1 3];
+db(i).breakmin = {};
+db(i).injection = {'baselinepre', 'Saline (s.c.)', 'Ket (s.c.)','End'};
+db(i).DurationS = [14.5 30.5 45]*60;
+db(i).dose = 7.69;
+db(i).surfacedepth = [];
+db(i).lfp = 50:50:300;
+db(i).pupil = {};
+db(i).NIDQ = {[neuropixDir db(i).animal '\' db(i).date '\'  db(i).animal '_g0\'  db(i).animal '_g0_t0.nidq.bin']};
+db(i).locom_track = [neuropixDir db(i).animal '\' db(i).date '\' db(i).animal '_[2022-10-17_16-08-10]\' db(i).animal '_[2022-10-17_16-08-10].tdms'];
+db(i).location = 'PFC';
+db(i).probe = 'NP1';
+
+% M221004_A_MS 
+
+i = i+1; % i = 219
+
+db(i).date = '261022';
+db(i).animal = 'M221004_A_MS';
+db(i).syringe_contents = 'CONTROL'; % Z1
+db(i).age = [];
+db(i).weight = 22.0;
+db(i).sex = 'F';
+db(i).ref = 'external';
+db(i).LFPgain = 250;
+db(i).dir = [neuropixDir  db(i).animal '\' db(i).date '\PFC\Spikes'];
+db(i).LFPdir = [neuropixDir db(i).animal '\' db(i).date '\PFC\LFP'];
+db(i).nChans = {384,1};
+db(i).cond = [1 5];
+db(i).breakmin = {};
+db(i).injection = {'baselinepre', 'ViStimpre_grating','ViStimpre','Drinking','baselinepost','ViStimpost_grating','ViStimpost','End'};
+db(i).DurationS = [15 10.5 20 15 15 10.5 20]*60;
+db(i).dose = 0;
+db(i).controldose = 7.3;
+db(i).surfacedepth = [];
+db(i).lfp = 50:50:300;
+db(i).pupil = {};
+db(i).pupilvideo = [neuropixDir db(i).animal '\' db(i).date '\video_55262.mj2'];
+db(i).NIDQ = {[neuropixDir db(i).animal '\' db(i).date '\'  db(i).animal '_g1\'  db(i).animal '_g1_t0.nidq.bin']};
+db(i).location = 'PFC';
+db(i).probe = 'NP1';
+
+% M221004_A_MS
+
+i = i+1; % i = 220
+
+db(i).date = '261022';
+db(i).animal = 'M221004_A_MS';
+db(i).syringe_contents = 'CONTROL'; % Z1
+db(i).age = [];
+db(i).weight = 22.0;
+db(i).sex = 'F';
+db(i).ref = [];
+db(i).LFPgain = [];
+db(i).dir = [neuropixDir  db(i).animal '\' db(i).date '\V1\Spikes'];
+db(i).LFPdir = [neuropixDir db(i).animal '\' db(i).date '\' db(i).animal '_g1\' db(i).animal '_g1_imec1'];
+db(i).nChans = {384,1};
+db(i).cond = [1 5];
+db(i).breakmin = {};
+db(i).injection = {'baselinepre', 'ViStimpre_grating','ViStimpre','Drinking','baselinepost','ViStimpost_grating','ViStimpost','End'};
+db(i).DurationS = [15 10.5 20 15 15 10.5 20]*60;
+db(i).dose = 0;
+db(i).controldose = 7.3;
+db(i).surfacedepth = [];
+db(i).lfp = [24:48:360]; % middle channel from each box section
+db(i).channelorder = [1 2 5 6 3 4 7 8]; % order of channels reading left to right, bottom to top
+db(i).pupil = {};
+db(i).pupilvideo = [neuropixDir db(i).animal '\' db(i).date '\video_55262.mj2'];
+db(i).NIDQ = {[neuropixDir db(i).animal '\' db(i).date '\'  db(i).animal '_g1\'  db(i).animal '_g1_t0.nidq.bin']};
+db(i).location = 'V1';
+db(i).probe = 'NP24';
+db(i).probe_orient = {'sagittal','external'};
+db(i).rec_map_files = {[neuropixDir db(i).animal '\' db(i).date '\' db(i).animal '_g0\' db(i).animal '_g0_imec1\' db(i).animal '_g0_t0.imec1.ap.bin'],...
+                        [neuropixDir db(i).animal '\' db(i).date '\'  db(i).animal '_g0\'  db(i).animal '_g0_t0.nidq.bin']};
+db(i).rec_field = [0 -406 264]; % x_coord, y_coord, lfpchannel
+
+% M221004_A_MS 
+
+i = i+1; % i = 221
+
+db(i).date = '271022';
+db(i).animal = 'M221004_A_MS';
+db(i).syringe_contents = 'TCB2'; % Z2
+db(i).age = [];
+db(i).weight = 22.0;
+db(i).sex = 'F';
+db(i).ref = 'external';
+db(i).LFPgain = 250;
+db(i).dir = [neuropixDir  db(i).animal '\' db(i).date '\PFC\Spikes'];
+db(i).LFPdir = [neuropixDir db(i).animal '\' db(i).date '\PFC\LFP'];
+db(i).nChans = {384,1};
+db(i).cond = [1 5];
+db(i).breakmin = {};
+db(i).injection = {'baselinepre', 'ViStimpre_grating','ViStimpre','Drinking','baselinepost','ViStimpost_grating','ViStimpost','End'};
+db(i).DurationS = [15.5 10.5 20.5 15 15 10.5 20.5]*60;
+db(i).dose = 6.8;
+db(i).controldose = 0;
+db(i).surfacedepth = [];
+db(i).lfp = 50:50:300;
+db(i).pupil = {};
+db(i).pupilvideo = [neuropixDir db(i).animal '\' db(i).date '\video_36187.mj2'];
+db(i).NIDQ = {[neuropixDir db(i).animal '\' db(i).date '\'  db(i).animal '_g1\'  db(i).animal '_g1_t0.nidq.bin']};
+db(i).location = 'PFC';
+db(i).probe = 'NP1';
+
+% M221004_A_MS
+
+i = i+1; % i = 222
+
+db(i).date = '271022';
+db(i).animal = 'M221004_A_MS';
+db(i).syringe_contents = 'TCB2'; % Z2
+db(i).age = [];
+db(i).weight = 22.0;
+db(i).sex = 'F';
+db(i).ref = [];
+db(i).LFPgain = [];
+db(i).dir = [neuropixDir  db(i).animal '\' db(i).date '\V1\Spikes'];
+db(i).LFPdir = [neuropixDir db(i).animal '\' db(i).date '\' db(i).animal '_g1\' db(i).animal '_g1_imec1'];
+db(i).nChans = {384,1};
+db(i).cond = [1 5];
+db(i).breakmin = {};
+db(i).injection = {'baselinepre', 'ViStimpre_grating','ViStimpre','Drinking','baselinepost','ViStimpost_grating','ViStimpost','End'};
+db(i).DurationS = [15.5 10.5 20.5 15 15 10.5 20.5]*60;
+db(i).dose = 6.8;
+db(i).controldose = 0;
+db(i).surfacedepth = [];
+db(i).lfp = [24:48:360]; % middle channel from each box section
+db(i).channelorder = [1 2 5 6 3 4 7 8]; % order of channels reading left to right, bottom to top
+db(i).pupil = {};
+db(i).pupilvideo = [neuropixDir db(i).animal '\' db(i).date '\video_36187.mj2'];
+db(i).NIDQ = {[neuropixDir db(i).animal '\' db(i).date '\'  db(i).animal '_g1\'  db(i).animal '_g1_t0.nidq.bin']};
+db(i).location = 'V1';
+db(i).probe = 'NP24';
+db(i).probe_orient = {'sagittal','external'};
+db(i).rec_map_files = {[neuropixDir db(i).animal '\' db(i).date '\' db(i).animal '_g0\' db(i).animal '_g0_imec1\' db(i).animal '_g0_t0.imec1.ap.bin'],...
+                        [neuropixDir db(i).animal '\' db(i).date '\'  db(i).animal '_g0\'  db(i).animal '_g0_t0.nidq.bin']};
+db(i).rec_field = [0 -406 264]; % x_coord, y_coord, lfpchannel
+
+% M221004_B_MS 
+
+i = i+1; % i = 223
+
+db(i).date = '011122';
+db(i).animal = 'M221004_B_MS';
+db(i).syringe_contents = 'CONTROL'; % AA2
+db(i).age = [];
+db(i).weight = 20.0;
+db(i).sex = 'F';
+db(i).ref = 'external';
+db(i).LFPgain = 250;
+db(i).dir = [neuropixDir  db(i).animal '\' db(i).date '\PFC\Spikes'];
+db(i).LFPdir = [neuropixDir db(i).animal '\' db(i).date '\PFC\LFP'];
+db(i).nChans = {384,1};
+db(i).cond = [1 5];
+db(i).breakmin = {};
+db(i).injection = {'baselinepre', 'ViStimpre_grating','ViStimpre','Drinking','baselinepost','ViStimpost_grating','ViStimpost','End'};
+db(i).DurationS = [15 10.5 20.5 15 15 10.5 20.5]*60;
+db(i).dose = 0;
+db(i).controldose = 7.0;
+db(i).HTR = [1,1,2];
+db(i).surfacedepth = [];
+db(i).lfp = 50:50:300;
+db(i).pupil = {};
+db(i).pupilvideo = [neuropixDir db(i).animal '\' db(i).date '\video_57446.mj2'];
+db(i).NIDQ = {[neuropixDir db(i).animal '\' db(i).date '\'  db(i).animal '_g1\'  db(i).animal '_g1_t0.nidq.bin']};
+db(i).location = 'PFC';
+db(i).probe = 'NP1';
+
+% M221004_B_MS 
+
+i = i+1; % i = 224
+
+db(i).date = '021122';
+db(i).animal = 'M221004_B_MS';
+db(i).syringe_contents = 'TCB2'; % AA2
+db(i).age = [];
+db(i).weight = 20.0;
+db(i).sex = 'F';
+db(i).ref = 'external';
+db(i).LFPgain = 250;
+db(i).dir = [neuropixDir  db(i).animal '\' db(i).date '\PFC\Spikes'];
+db(i).LFPdir = [neuropixDir db(i).animal '\' db(i).date '\PFC\LFP'];
+db(i).nChans = {384,1};
+db(i).cond = [1 3];
+db(i).breakmin = {};
+db(i).injection = {'baselinepre','Drinking','baselinepost','End'};
+db(i).DurationS = [15 15 18]*60;
+db(i).dose = 10.0;
+db(i).controldose = 0;
+db(i).HTR = [9,7,9];
+db(i).surfacedepth = [];
+db(i).lfp = 50:50:300;
+db(i).pupil = {};
+db(i).location = 'PFC';
+db(i).probe = 'NP1';
+
+% M221004_A_MS Anaes
+i = i + 1; % i = 225
+
+db(i).date = '051122';
+db(i).animal = 'M221004_A_MS';
+db(i).syringe_contents = []; 
+db(i).age = [];
+db(i).weight = 22.0;
+db(i).sex = 'F';
+db(i).ref = [];
+db(i).LFPgain = [];
+db(i).dir = [neuropixDir  db(i).animal '\' db(i).date '\V1\Spikes'];
+db(i).LFPdir = [neuropixDir db(i).animal '\' db(i).date '\' db(i).animal '_g1\' db(i).animal '_g1_imec0'];
+db(i).nChans = {384,1};
+db(i).cond = [1 4];
+db(i).breakmin = {};
+db(i).injection = {'baselinepre', 'ViStimpre_grating','ViStimpre','baselinepost','ViStimpost_grating','ViStimpost','End'};
+db(i).DurationS = [15 10.5 20.5 15 10.5 24.5]*60;
+db(i).dose = [];
+db(i).controldose = 0;
+db(i).surfacedepth = [];
+db(i).lfp = [24:48:360]; % middle channel from each box section
+db(i).channelorder = [1 2 5 6 3 4 7 8]; % order of channels reading left to right, bottom to top
+db(i).pupil = {};
+db(i).NIDQ = {[neuropixDir db(i).animal '\' db(i).date '\'  db(i).animal '_g1\'  db(i).animal '_g1_t0.nidq.bin']};
+db(i).location = 'V1';
+db(i).probe = 'NP24';
+db(i).probe_orient = {'sagittal','external'};
+db(i).rec_map_files = {[neuropixDir db(i).animal '\' db(i).date '\' db(i).animal '_g0\' db(i).animal '_g0_imec0\' db(i).animal '_g0_t0.imec0.ap.bin'],...
+                        [neuropixDir db(i).animal '\' db(i).date '\'  db(i).animal '_g0\'  db(i).animal '_g0_t0.nidq.bin']};
+db(i).rec_field = [256 -406 24]; % x_coord, y_coord, lfpchannel
+
+% M221011_A_BD Ket
+i = i + 1; % i = 226
+
+db(i).date = '071122';
+db(i).animal = 'M221011_A_BD';
+db(i).syringe_contents = 'KET'; 
+db(i).age = [];
+db(i).weight = 29.0;
+db(i).sex = 'M';
+db(i).ref = 'external';
+db(i).LFPgain = 125;
+db(i).dir = [neuropixDir  db(i).animal '\' db(i).date '\PFC\Spikes'];
+db(i).LFPdir = [neuropixDir db(i).animal '\' db(i).date '\PFC\LFP'];
+db(i).nChans = {384,1};
+db(i).cond = [1 3];
+db(i).breakmin = {};
+db(i).injection = {'baselinepre', 'Saline (s.c.)', 'Ket (s.c.)','End'};
+db(i).DurationS = [15 16 29]*60;
+db(i).dose = 10;
+db(i).surfacedepth = [];
+db(i).lfp = 50:50:300;
+db(i).pupil = {};
+db(i).NIDQ = {};
+db(i).locom_track = [neuropixDir db(i).animal '\' db(i).date '\' db(i).animal '_[2022-11-07_11-10-05]\' db(i).animal '_[2022-11-07_07-11-10-05].tdms'];
+db(i).location = 'PFC';
+db(i).probe = 'NP1';
+
+% M221004_B_MS Anaes
+i = i + 1; % i = 227
+
+db(i).date = '091122';
+db(i).animal = 'M221004_B_MS';
+db(i).syringe_contents = []; 
+db(i).age = [];
+db(i).weight = 21.0;
+db(i).sex = 'F';
+db(i).ref = [];
+db(i).LFPgain = [];
+db(i).dir = [neuropixDir  db(i).animal '\' db(i).date '\V1\Spikes'];
+db(i).LFPdir = [neuropixDir db(i).animal '\' db(i).date '\' db(i).animal '_g1\' db(i).animal '_g1_imec0'];
+db(i).nChans = {384,1};
+db(i).cond = [1 4];
+db(i).breakmin = {};
+db(i).injection = {'baselinepre', 'ViStimpre_grating','ViStimpre','baselinepost','ViStimpost_grating','ViStimpost','End'};
+db(i).DurationS = [15 10.5 20.5 15 10.5 20.5]*60;
+db(i).dose = [];
+db(i).controldose = 0;
+db(i).surfacedepth = [];
+db(i).lfp = [24:48:360]; % middle channel from each box section
+db(i).channelorder = [1 2 5 6 3 4 7 8]; % order of channels reading left to right, bottom to top
+db(i).pupil = {};
+db(i).NIDQ = {[neuropixDir db(i).animal '\' db(i).date '\'  db(i).animal '_g1\'  db(i).animal '_g1_t0.nidq.bin']};
+db(i).location = 'V1';
+db(i).probe = 'NP24';
+db(i).probe_orient = {'sagittal','external'};
+db(i).rec_map_files = {[neuropixDir db(i).animal '\' db(i).date '\' db(i).animal '_g0\' db(i).animal '_g0_imec0\' db(i).animal '_g0_t0.imec0.ap.bin'],...
+                        [neuropixDir db(i).animal '\' db(i).date '\'  db(i).animal '_g0\'  db(i).animal '_g0_t0.nidq.bin']};
+db(i).rec_field = [-256 0 120]; % x_coord, y_coord, lfpchannel
+
+% M221010_B_BD Ket
+i = i + 1; % i = 228
+
+db(i).date = '141122';
+db(i).animal = 'M221010_B_BD';
+db(i).syringe_contents = 'KET'; 
+db(i).age = [];
+db(i).weight = 27.0;
+db(i).sex = 'M';
+db(i).ref = 'external';
+db(i).LFPgain = 125;
+db(i).dir = [neuropixDir  db(i).animal '\' db(i).date '\PFC\Spikes'];
+db(i).LFPdir = [neuropixDir db(i).animal '\' db(i).date '\PFC\LFP'];
+db(i).nChans = {384,1};
+db(i).cond = [1 3];
+db(i).breakmin = {};
+db(i).injection = {'baselinepre', 'Saline (s.c.)', 'Ket (s.c.)','End'};
+db(i).DurationS = [17.5 15 30.5]*60;
+db(i).dose = 10;
+db(i).surfacedepth = [];
+db(i).lfp = 50:50:300;
+db(i).pupil = {};
+db(i).NIDQ = {};
+db(i).locom_track = [neuropixDir db(i).animal '\' db(i).date '\' db(i).animal '_[2022-11-14_11-45-06]\' db(i).animal '_[2022-11-14_11-45-06].tdms'];
+db(i).location = 'PFC';
+db(i).probe = 'NP1';
+
+% M221101_A_BD Ket
+i = i + 1; % i = 229
+
+db(i).date = '141122';
+db(i).animal = 'M221101_A_BD';
+db(i).syringe_contents = 'KET'; 
+db(i).age = [];
+db(i).weight = 29.0;
+db(i).sex = 'M';
+db(i).ref = 'external';
+db(i).LFPgain = 125;
+db(i).dir = [neuropixDir  db(i).animal '\' db(i).date '\PFC\Spikes'];
+db(i).LFPdir = [neuropixDir db(i).animal '\' db(i).date '\PFC\LFP'];
+db(i).nChans = {384,1};
+db(i).cond = [1 3];
+db(i).breakmin = {};
+db(i).injection = {'baselinepre', 'Saline (s.c.)', 'Ket (s.c.)','End'};
+db(i).DurationS = [15 15 30]*60;
+db(i).dose = 10;
+db(i).surfacedepth = [];
+db(i).lfp = 50:50:300;
+db(i).pupil = {};
+db(i).NIDQ = {};
+db(i).locom_track = [neuropixDir db(i).animal '\' db(i).date '\' db(i).animal '_[2022-11-14_15-48-14]\' db(i).animal '_[2022-11-14_15-48-14].tdms'];
+db(i).location = 'PFC';
+db(i).probe = 'NP1';
+
+% M221101_B_BD Ket
+i = i + 1; % i = 230
+
+db(i).date = '231122';
+db(i).animal = 'M221101_B_BD';
+db(i).syringe_contents = 'KET'; 
+db(i).age = [];
+db(i).weight = 30.0;
+db(i).sex = 'M';
+db(i).ref = 'external';
+db(i).LFPgain = 125;
+db(i).dir = [neuropixDir  db(i).animal '\' db(i).date '\PFC\Spikes'];
+db(i).LFPdir = [neuropixDir db(i).animal '\' db(i).date '\PFC\LFP'];
+db(i).nChans = {384,1};
+db(i).cond = [1 3];
+db(i).breakmin = {};
+db(i).injection = {'baselinepre', 'Saline (s.c.)', 'Ket (s.c.)','End'};
+db(i).DurationS = [15 15 30]*60;
+db(i).dose = 10;
+db(i).surfacedepth = [];
+db(i).lfp = 50:50:300;
+db(i).pupil = {};
+db(i).NIDQ = {};
+db(i).locom_track = [neuropixDir db(i).animal '\' db(i).date '\' db(i).animal '_[2022-11-14_15-48-14]\' db(i).animal '_[2022-11-14_15-48-14].tdms'];
+db(i).location = 'PFC';
+db(i).probe = 'NP1';
+
 top_MS_recording = i;
 
 %%
@@ -5084,22 +5507,13 @@ for i = [130:top_MSanaes_recording 160:top_MS_recording] % need to run on only r
 end
 
 
-%dualprobeexp = [12 16 18 22 24 26 28 38 40 42 44 62:2:92]; % index of first probe (dualprobeexp+1 corresponds to all second probes - V1 in neuropixels experiments)
 Batch1PFC = [48:57 60 61];
 Batch2PFC = [62:2:92];
-Batch3PFC = [162 164 166 168 172 174 186 187 188 190 194 196 212 214]; % Awake Neuropixels in PFC MS
-%AllPFC = [Batch1PFC Batch2PFC];
+Batch3PFC = [162 164 166 168 172 174 186 187 188 190 194 196 212 214 219 221 223 224]; % Awake Neuropixels in PFC MS
 Batch2V1 = [63:2:93]; % V1 probe in dual probe recordings BD
-%TCBfirst = AllPFC([2 8 14 16 18 24]);
-%Controlfirst = AllPFC([4 6 10 12 20 22 26 28]);
-%Adaptation1 = [100:105];
-%Adaptation2 = [110:115];
-%Adaptation3 = [120:125];
-%AllAdaptation = [Adaptation1 Adaptation2 Adaptation3];
 AnaesPFC = [130:135 137 138 140 142 145 146 148]; % Anaesthetised Neuropixels in mPFC
-AnaesV1 = [147 149 198 201 208 209 216 217]; % Anaesthestised Neuropixels in V1
-%Slice = [150]; % Slice recordings in  mPFC
-AwakeV1 = [178 179 180 181 182 183 184 185 189 191 192 193 195 197 199 200 203 205 210 211 213 215]; % Awake Neuropixels in V1 with visual grating stim MS
-% save('database','db');
+AnaesV1 = [149 198 201 208 209 216 217]; % Anaesthestised Neuropixels in V1
+AwakeV1 = [178 179 180 181 182 183 184 185 189 191 192 193 195 197 199 200 203 205 210 211 213 215 220 222]; % Awake Neuropixels in V1 with visual grating stim MS
+AwakeKet = [218 226 228 229 230];
 clear i j k namelist dataDir dbID SR topDir neuropixDir top_MSanaes_recording top_MS_recording;
 return
